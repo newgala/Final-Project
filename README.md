@@ -1,4 +1,4 @@
-![alt text](https://github.com/newgala/Final-Project/blob/main/spotify.png) 
+![alt text](https://github.com/newgala/Final-Project/blob/main/pics/spotify.png) 
 
 # FINAL PROJECT - SPOTIFY PODCASTS EPISODES ENGINE RECOMMENDER
 
