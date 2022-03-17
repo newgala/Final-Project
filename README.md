@@ -9,9 +9,6 @@ By: <br/>
 - [Scenario](#scenario)
 - [Objective](#objective)
 - [Tools and Methods](#tools-and-methods)
-- [Models](#models)
-- [Insight](#insights)
-- [Next Steps](#next-steps)
 
 ## Scenario
 
@@ -41,15 +38,7 @@ To create the presentation.
 
 [Spotify user interface](https://github.com/cosfer2804/FCDATA/blob/main/python/classification_final.ipynb) 
 
-* EDA 
-* Preprocessing
-* Data tranformation
-* Cosine similarity 
-* Built user interface
-
-### Insights
-
-
-### Next Steps
-
-
+* Data cleaning: drop nulls values, check for duplicates, tokenize and lemmatize the text;
+* Preprocessing: Transfor text into vectors using TfidfVectorizer;
+* Apply cosine similarity to text (description+title) to find the similarity scores of the whole episodes;
+* Built user interface.
