@@ -32,30 +32,24 @@ organize the activities by dividing them into four main groups: to do, doing, do
 To create the presentation.
 
 ### Python
-I divide the work done in python into two notebooks.
-In the [Data collection](https://github.com/cosfer2804/FCDATA/blob/main/python/classification_eda.ipynb):
+I divide the project in  two notebooks:
+[Spotify API data collection](https://github.com/cosfer2804/FCDATA/blob/main/python/classification_eda.ipynb):
 * Collect up to 10000 episodes from Spotify API;
-* Filter episodes search by 11 different topics using them as key words in the episodes title;
-* Define a function to download more then 50 episodes at the same time as Spotify has a limit;
+* Filter episodes search by downloading titles that only contains our 11 selected topics as keywords;
+* Define a function to download more then 50 episodes/time as Spotify has a limit of 50 episodes/time;
 * Export the dataframe to a new csv.
 
-In the [final model](https://github.com/cosfer2804/FCDATA/blob/main/python/classification_final.ipynb) 
-* EDA - 
+[Spotify user interface](https://github.com/cosfer2804/FCDATA/blob/main/python/classification_final.ipynb) 
+
+* EDA 
 * Preprocessing
 * Data tranformation
-* Cosine similarity application
-* User interface
-
-#### MVP 1 - User interface
-Despite achieving only 69.6% accuracy, this model is the most ideal for implementing a marketing strategy that will focus on potential customers without losing those who have already accepted the offer. 
-
-<img width="400" alt="KNeighbors" src="https://github.com/cosfer2804/FCDATA/blob/main/screenshot/knn_best1.png">
+* Cosine similarity 
+* Built user interface
 
 ### Insights
-* The average balance increases esponentially from Q1 to Q3 in category A, while it  remains invariate in category D. Categories B and C have a linear average balance   grow from Q1 to Q3 and drop from Q3 to Q4.
-* 62% of the clients that accepted the offer has low credit rating, followed by 26%  with medium creadit rating and only 12% with high credit rating.
-* It seems that there is a preference in receiving the offer through postcard in the group who accepted the offer.
+
 
 ### Next Steps
-To further deep dive into the study we might need some more demographic (age) and geographic (residence) information about the target. For istance, in some countries, people tend to go to holidays during Q2 and Q3, so therefore more money are kept in the bank account. Also, during holidays, people might need a credit card?
+
 
