@@ -32,7 +32,7 @@ organize the activities by dividing them into four main groups: to do, doing, do
 To create the presentation.
 
 ### Python
-I divide the project in  two notebooks:
+
 [Spotify API data collection](https://github.com/cosfer2804/FCDATA/blob/main/python/classification_eda.ipynb):
 * Collect up to 10000 episodes from Spotify API;
 * Filter episodes search by downloading titles that only contains our 11 selected topics as keywords;
