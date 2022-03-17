@@ -25,46 +25,28 @@ In this project we will take in consideration Spotify as one of the most used am
 ### Trello - using agile method (Kanban)
 organize the activities by dividing them into four main groups: to do, doing, done and review code. Check my [trello](https://trello.com/b/Ke2jn3vM/final-project-spotify-episodes-recommender)
 
-### Github
-Github is a code hosting platform for version control and collaboration. We used it to share the files and keep a backlock of the updates. Check our [repository](https://github.com/cosfer2804/FCDATA)
-
 ### Canva
-To create the presentation
+To create the presentation.
 
 ### Python
-We divide the work done in python into two notebooks.
-In the [classification_eda](https://github.com/cosfer2804/FCDATA/blob/main/python/classification_eda.ipynb) we did the cleaning steps:
-* standardize headers name;
-* EDA - review columns' distribution, counts and correlation
-* check and fill the nulls;
-* check duplicates;
-* visualizations - Matplotlib and Seaborn to check if there are outliers
-* Pre-processing: encode categories and scale numerics
-* export the cleaned dataframe to a new csv.
+I divide the work done in python into two notebooks.
+In the [Data collection](https://github.com/cosfer2804/FCDATA/blob/main/python/classification_eda.ipynb):
+* Collect up to 10000 episodes from Spotify API;
+* Filter episodes search by 11 different topics using them as key words in the episodes title;
+* Define a function to download more then 50 episodes at the same time as Spotify has a limit;
+* Export the dataframe to a new csv.
 
-In the [final model](https://github.com/cosfer2804/FCDATA/blob/main/python/classification_final.ipynb) notebook we did some cleaning and then run 9 different classification models:
-* Train, test, split
-* Define model
-* Check accuracy of our classification model
-* Fit the model to more balanced data
-* Correlating categories with chi squared
-* Fit the model to more balanced data using resampling techniques SMOTE and Tomelink and visualize with confusion_matrix and heatmap
+In the [final model](https://github.com/cosfer2804/FCDATA/blob/main/python/classification_final.ipynb) 
+* EDA - 
+* Preprocessing
+* Data tranformation
+* Cosine similarity application
+* User interface
 
-### Models
-To perform each model, we developed a for loop in which we applied Logistic Regression, Random Forest, KNeighbors and Gradient Boosting to the same dataframe. In this way, it was possible to compare and evaluate which methods obtained the best results.
-
-So after testing nine different models, we decided to give attention to two of them that had a more relevant result. It is worth noting that each model represents two different marketing strategies. 
-
-#### Model 1 - KNeighbors (using SMOTE for resampling)
+#### MVP 1 - User interface
 Despite achieving only 69.6% accuracy, this model is the most ideal for implementing a marketing strategy that will focus on potential customers without losing those who have already accepted the offer. 
 
-When we evaluate the confusion matrix, it is possible to notice that the model predicts 5.6% of true positives from the total number of customers, which corresponds to more than 90% of the customers who accepted the offer. On the other hand, we notice that the model predicts 30% false positives. However, in our case false positives are considered as possible customers. This way, we can use this model to design a marketing strategy to keep most of the customers that have already accepted the proposal and make new offers to potential customers. 
-
-It is worth noting that the model only made statistical evaluations. Therefore, if there is any interest in implementing this strategy, financial planning is required to assess its viability.
-
 <img width="400" alt="KNeighbors" src="https://github.com/cosfer2804/FCDATA/blob/main/screenshot/knn_best1.png">
-
-
 
 ### Insights
 * The average balance increases esponentially from Q1 to Q3 in category A, while it  remains invariate in category D. Categories B and C have a linear average balance   grow from Q1 to Q3 and drop from Q3 to Q4.
