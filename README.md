@@ -30,7 +30,7 @@ To create the presentation.
 
 ### Python
 
-[Spotify API data collection](https://github.com/cosfer2804/FCDATA/blob/main/python/classification_eda.ipynb):
+[Spotify API data collection](https://github.com/newgala/Final-Project/blob/main/Spotify%20episodes%20recommender%20-%20wrapper%20API.ipynb):
 * Collect up to 10000 episodes from Spotify API;
 * Filter episodes search by downloading titles that only contains our 11 selected topics as keywords;
 * Define a function to download more then 50 episodes/time as Spotify has a limit of 50 episodes/time;
