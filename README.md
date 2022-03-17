@@ -36,7 +36,7 @@ To create the presentation.
 * Define a function to download more then 50 episodes/time as Spotify has a limit of 50 episodes/time;
 * Export the dataframe to a new csv.
 
-[Spotify user interface](https://github.com/cosfer2804/FCDATA/blob/main/python/classification_final.ipynb) 
+[Spotify user interface](https://github.com/newgala/Final-Project/blob/main/Spotify%20podcasts%20recommender%20-%20MVP%201%20user%20interface%20.ipynb) 
 
 * Data cleaning: drop nulls values, check for duplicates, tokenize and lemmatize the text;
 * Preprocessing: Transfor text into vectors using TfidfVectorizer;
