@@ -15,7 +15,7 @@ By: <br/>
 
 ## Scenario
 
-![alt text](https://github.com/newgala/Final-Project/blob/main/spotify.png) 
+![alt text](https://github.com/newgala/Final-Project/blob/main/chart.jpg) 
 
 The rise of podcasts in the past years and their prominent growth in the future are clear signs of the interest that people have in experiencing a new way of getting information/entertainment. The popular apps in which you can stream podcasts are Spotify, Apple Podcast, and Google Podcasts.
 In this project we will take in consideration Spotify as one of the most used among people and also cause it has a good section for developers to retrieve data. As an avid podcasts consumer, I noticed that Spotify recommends only similar podcasts show but not episodes with similar content therefore I've decided to create one of my own.
